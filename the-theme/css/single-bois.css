@@ -1,0 +1,22 @@
+
+.container-bois {
+    padding: 15px;
+    
+}
+
+.container-bois h1 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.single-bois__thumbnail img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.single-bois__content {
+    margin-top: 20px;
+}
+
+

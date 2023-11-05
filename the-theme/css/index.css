@@ -1,0 +1,58 @@
+.page-header {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+}
+
+.page-header img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    filter: brightness(20%);
+}
+
+.page-header h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+}
+
+.section-container {
+    background-color: black; /* Fond noir pour le conteneur externe */
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.info-sections {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    text-align: center;
+}
+.info-section {
+    position: relative;
+    padding-right: 20px; /* Ajoute un espace pour la bordure */
+}
+
+/* Ajoute une bordure à droite pour toutes les sections sauf la dernière */
+.info-section:not(:last-child) {
+    border-right: 2px solid #ccc; 
+}
+
+.info-section h2 {
+    margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+    .info-sections {
+        grid-template-columns: 1fr;
+        gap: 50px;
+    }
+    .info-section:not(:last-child) {
+        border-right: none;
+    }
+}

@@ -1,0 +1,61 @@
+/* Style général pour le conteneur principal */
+.grid-container {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 20px;
+    max-width: 1000px;
+    margin: 20px auto; 
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #936F39;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #101010;
+}
+
+/* Style pour le conteneur des revêtements avec box-shadow */
+.container-revetements {
+    padding: 15px;
+    
+}
+
+.container-revetements h1 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.single-revetements__thumbnail img {
+    width: 100%;
+    height: auto;
+    border-radius: 4%;
+}
+
+.single-revetements__content {
+    margin-top: 20px;
+}
+
+/* Style pour la section d'informations */
+section h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+section p {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+section h1, section h2 {
+    margin-bottom: 20px; 
+}
+
+/* Style pour la responsivité */
+@media screen and (max-width: 768px) {
+    .grid-container {
+        grid-template-columns: 1fr;
+        margin: 20px;
+    }
+}
+
+
+
+

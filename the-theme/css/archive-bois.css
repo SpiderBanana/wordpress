@@ -1,0 +1,50 @@
+
+
+/* Style pour chaque bois */
+.revetements-bois {
+    background-color: rgb(14, 14, 14);
+    text-align: center;
+    padding: 20px;
+    border-radius: 40px; 
+    border: 1px solid #936F39; 
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 80%;
+    margin: 20px auto;
+}
+
+.revetements-bois h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+.revetements-bois__content p {
+    margin-top: 15px;
+}
+
+.revetements-bois img {
+    max-width: 100%;
+    max-width: 300px;
+    height: auto;
+    max-height: 500px; 
+    border-radius: 30%;
+}
+
+
+
+.revetements-bois a {
+    display: inline-block;
+    padding: 10px 20px; 
+    margin-top: 15px;
+    text-decoration: none;
+    background-color: #101010; 
+    color: white;
+    border-radius: 40px; 
+    transition: background-color 0.3s; 
+    border: 1px solid #936F39;
+}
+
+.revetements-bois a:hover {
+    background-color: #242424;
+}
+
+
+
